@@ -1,0 +1,39 @@
+To-Do:
+✓ Generate RoC curve
+✓ Perform Cross-Validation
+- Clean IMDB data
+
+Personal Notes:
+Steps:
+1. Use given script to build vocabulary and bag of words represetation for each review.
+	1.1 Feel free to extend as necessary.
+2. Use some sort of feature selector to reduce the number of features.
+3. Try different classifiers
+4. Evaluate each of the classifiers in the following metrics:
+	* Receiver Operating Characteristics curves on test data set.
+	* Number of false positives & False negatives.
+
+	* Most important features
+	* What do these features tell us about the problem
+	* What is worse false-positive or false-negative?
+	* Reviews that worked well on all approaches, reviews that differed.
+
+Extensions:
+- Data:
+	* IMDb movies data set w/ 50k 
+	* Some other reviews ??
+- Representation:
+	* Bag-of-words binary vector
+	* Bag-of-words Frequency vector
+	* Bi-Grams
+	* TF-IDF ??
+- Feature selection:
+	* Adjectives
+	* ???
+- Other extensions:
+	* Cross Validation 
+
+Links:
+- https://www.youtube.com/watch?v=6dbrR-WymjI [Feature selection through CV]
+- http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/
+	
