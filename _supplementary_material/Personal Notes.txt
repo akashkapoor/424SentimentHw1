@@ -1,7 +1,41 @@
 To-Do:
 ✓ Generate RoC curve
 ✓ Perform Cross-Validation
-- Clean IMDB data
+
+- Classifiers
+	✓ MNB
+	✓ SVM
+		- Cross Validate the kernels
+		✓ Linear
+		✓ RBF
+	✓ Decision Trees
+	✓ Random Forest
+	✓ KNN
+	✓ Logistic Regression
+	✓ Gradient Boosting Classifier
+	✓ Adaboost
+
+- More Data
+	✓ Clean IMDB data
+
+- Feature Representaion
+	* Terms:
+		# Unigram
+		# Bigram + Unigram
+	* Counters:
+		# Boolean
+		# Frequency
+		# TF-IDF
+
+- Feature Selection
+	* Information Gain
+	* CPD
+
+- Evaluation
+	✓ RoC curve, AUC
+	✓ Test & Train Accuracy
+	✓ Precision Recall Curve & pre , recall
+	✓ Confusion Matrix
 
 Personal Notes:
 Steps:
@@ -32,8 +66,20 @@ Extensions:
 	* ???
 - Other extensions:
 	* Cross Validation 
+- Evaluation:
+	* RoC
+		- Good if balanced dataset.
+	* Precision Recall Curve
 
 Links:
+- Report: http://sentiment.christopherpotts.net/classifiers.html
 - https://www.youtube.com/watch?v=6dbrR-WymjI [Feature selection through CV]
 - http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/
-	
+
+
+
+SVM: 
+- http://scikit-learn.org/stable/auto_examples/svm/plot_iris.html
+- http://scikit-learn.org/stable/auto_examples/svm/plot_svm_kernels.html
+
+http://blog.datumbox.com/machine-learning-tutorial-the-max-entropy-text-classifier/
